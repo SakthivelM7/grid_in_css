@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(176, 141, 52);
+        }
+        h1{
+            text-align: center;
+            color: rgb(31, 18, 13);
+            text-decoration: underline;
+        }
+        img{
+            width: 1460px;  
+            height: 150px;      
+        }
+        .grid-box{
+            font-size: larger;
+            font-weight: bold;
+            font-family:Georgia, 'Times New Roman', Times, serif ;
+            line-height: 30px;
+            border: 4px solid;
+            padding: 10px;
+            text-align: center;
+        }
+        .project-grid{
+            font-size: larger;
+            font-weight: bold;
+            font-family:Georgia, 'Times New Roman', Times, serif ;
+            line-height: 30px;
+            border: 4px solid;
+            padding: 20px;
+            margin-top: 20px;   
+        }
+        @media screen and (max-width:800px){
+            .grid-box,.project-grid{
+                background-color: rgb(30, 134, 134);
+            }
+            img{
+                width: 700px;
+            }
+            b{
+                color: darkgreen;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="img-div">
+       <img src="image.png" alt=""> 
+    </div>
+    <h1>Sakthivel M Fullstack Developer @ GWC</h1>
+    <div>
+        <div class="grid-box">
+            <h1>About me</h1>
+            <p>Myself Sakthivel M. I belongs to Dharmapuri, it's King of Chola Adhiyaman lived in that place
+                I done my Graduation in Er. Perumal Manimekalai college Of Engineering Hosur and completed 2023
+                I have Completed Python fullstack developer Course in Bangalore, there i have learned front-end technologies
+                and Backend Technologies in addition to Framework also learned.
+            </p>
+        </div>
+        <div class="project-grid">
+            <h1>Projects</h1>
+            <ul>
+                <li>A Novel Framework for Voice Based Email Recongnization System</li>
+                <li>Student Management System using Django</li>
+                <li>Library Management System using Django</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
